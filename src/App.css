@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: #32363d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: black;
+  height: 100%;
+}
+
+.container{
+  margin: 2%;
+  align-self: center;
+  width: 38% !important;
+}
+
+.postBtn {
+  background-color: white !important;
+  color: black !important ;
+}
+
+.cardBox{
+  height: 250px;
+  margin: 2%;
+}
+
+.cardBody{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.title {
+  height: 7% !important;
+}
+
+.imgBox{
+  height: 85% !important;
+  margin-top: 1%;
+  margin-bottom: 0.8%;
+  align-self: center;
+}
+
+@media only screen and (max-width: 800px){
+    .container{
+      margin: 2%;
+      align-self: center;
+      width: 65% !important;
+      transition-duration: 1s ease;
+    }
+}
